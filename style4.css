@@ -1,0 +1,180 @@
+/* reset */
+*{margin: 0;font-size: 100%;border: none;outline: none;font-weight: 300;box-sizing: border-box;
+    font-family: 'Anton', sans-serif;}
+body{
+     background-color: rgb(19, 16, 16);
+     padding: 0;
+
+    }
+a{
+        text-decoration: none;
+    }
+ul{
+    list-style: none;
+}  
+img{
+    width: 100%;
+    height: 250px;
+} 
+/* abecalho */
+.cabecalho{
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+}
+.logo{
+    width: 56px;
+    height: 56px;
+    float: left;
+    background:url(https://tinyurl.com/yx5zvq2b) center center/56px no-repeat ;
+    font-size: 0;
+}
+
+ 
+.btn-menu{
+    width: 56px;
+    height: 56px;
+    float: right;
+    text-align: center;
+    color:white;
+    border-radius: 56px;
+    cursor: pointer;
+    background-color: tomato;
+
+}
+
+/* menu */
+
+.menu{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(75, 39, 39, 0.9);
+    top: 0;
+    left: 0;
+}
+.btn-close{
+    font-size: 3em;
+    color: white;
+    float: right;
+    cursor: pointer;
+    margin-right: 5%;
+}
+.menu ul{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.menu li{
+    padding: 1.5%;
+
+}
+.filme3{
+    background-color: darkorange;
+    margin-bottom: 2px;
+    text-align: center;
+    height: 30px;
+    
+}
+
+.filme3 h2{
+   
+    color: rgb(243, 231, 231);
+    padding: 1px;
+}
+
+
+
+
+
+
+
+
+.menu li a{font-size: 2em; color: red; padding: 1.5% 3%;}
+.menu li a:hover {border: 1px solid orange;}
+
+/* banner */
+
+
+   h3{text-shadow: 1px 1px white, -1px -1px black;}
+
+
+.banner{ width: 100%; text-align: center;padding: 1% 1% ; 
+     background: url(https://a-static.besthdwallpaper.com/limite-do-amanha-papel-de-parede-5120x1440-15917_78.jpg) no-repeat fixed;}
+.title{width: 100%;}
+.title h2{font-size: 2.5em; color: white; font-weight: 700; text-shadow: 10px 10px 6px black;}
+.title h3{font-size: 1.5em; color: white; text-shadow: 10px 10px 6px black;}
+.buttons{width: 100%; margin-top: 2%;}
+.buttons i {float: right;}
+.btn-cadastrar{ width: 100%; font-size: 1.5em; text-align: left; cursor: pointer; padding: 5%;
+    border-radius: 10px; background-color: white; color: red;}
+.btn-sobre{width: 100%; font-size: 1.5em; text-align: left; cursor: pointer; padding: 5%;
+    border-radius: 10px; background-color: white; color: red; margin-top: 2%;}
+
+ /* servicos */
+.servicos{width: 100%; padding: 0% ; margin: 0px;align-items: center;}  
+.servico{width: 100%; background-color: rgb(16, 19, 14); text-align: left; border-radius: 4px; margin-bottom: 3%;margin: 1px; }  
+.servico img{border-radius: 7px 7px 0 0; align-items: center;}
+.inner{padding: 4%;margin: 4px;}
+.inner a{font-size: 1.5em; color:rgb(15, 17, 15);  font-weight: 700;}
+.inner h4{font-size: 1.2em; color: red; margin-top: 2; background-color: yellow;;  text-align: center;}
+.inner p{margin-top: 6%; color: black; margin-top: 2; line-height: 1.5em;}
+
+/* newslitter */
+.newslitter{width: 100%;  text-align: center; padding: 3% 4%; background-color: rgb(190, 23, 23);margin-bottom: 13px;}
+.newslitter h2{font-size: 1.5em; color: white; font-weight: 400; text-shadow: 0px 0px white, -2px -3px black;}
+.newslitter h3{color: white;}
+.newslitter form{margin-top: 2%;}
+.newslitter input{width: 100%; background-color: black; color: white; border: 1px solid white; padding: 5%; border-radius: 5%;}
+.newslitter button{width: 100%; background-color: white; color: black; padding: 5%; border-radius: 5px; cursor: pointer; margin-top: 2%;}
+
+/* rodape */
+.rodape{width: 100%; float: left; padding: 3% 4%; text-align: center; background-color: orange; margin-bottom: 10px;}
+.social-icons a{font-size: 1.5em; color: rgba(255,255,255,0.7); margin-right: 3%;}
+.social-icons a:hover{color:rgb(255,255,255);}
+.social-icons a:last-child {margin-right: 0;}
+.copyright{margin-top: 2%; color:rgba(255,255,255,0.7);}
+
+/* responsivo */
+
+/* smartfones*/
+@media screen and (min-width: 480px) {
+    .logo{
+        
+        width: 214px;
+        height: 100px;
+        float: left;
+        background:url(https://tinyurl.com/yx5zvq2b) center center/214px no-repeat ;
+        
+    }
+    .servico{width: 30%; float: left; margin-left: 3%; }
+
+    img{
+        width: 130px;
+        height: 190px;
+      }
+    
+    
+
+}
+
+
+
+/* TABLETES */
+@media screen and (min-width: 768px) {
+.servico{width: 20%; margin-left: 2%; float: right 2 ; margin-right: 13px; margin-left: 12px;
+}
+
+
+.newslitter h2 {font-size: 2em;}
+.newslitter h3 {font-size: 1.5em;}
+.newslitter input{width: 70%; padding: 2%; float: left; margin-right: 1%;}
+.newslitter button{width: 29%; padding: 2%; float: right; margin-top: 0;}
+
+
+}
+
+
+
+
